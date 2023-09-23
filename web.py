@@ -29,4 +29,3 @@ for index , todo in enumerate(to_dos):
 st.text_input(label=" ", placeholder="Add a new to do..",
               on_change=add_todo, key='new_todo')
 
-st.session_state
